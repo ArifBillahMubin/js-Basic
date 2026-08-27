@@ -38,3 +38,8 @@ console.log(isArray);
 const arr6 = [10, 20, 30, 40, 50]
 const reverse = arr6.reverse();
 console.log(reverse);
+
+//array copy 
+const arr7 = [10, 20, 30, 40, 50]
+const arr8 = [...arr7];
+console.log(arr8);

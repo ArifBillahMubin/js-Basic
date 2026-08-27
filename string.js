@@ -12,3 +12,8 @@ for(let item of name){
 const text = "hello";
 const reversedText = text.split("").reverse().join("");
 console.log(reversedText);
+
+//slice method
+const str = "JavaScript";
+const slicedStr = str.slice(0, 4);
+console.log(slicedStr);
