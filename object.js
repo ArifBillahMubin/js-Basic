@@ -22,3 +22,9 @@ console.log(name, age, marks);
 for (let key in student) {
     console.log(`${key}: ${student[key]}`);
 }
+
+
+//set timeout
+const timer = setTimeout(() => {
+    console.log("hello");
+}, 2000);
