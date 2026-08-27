@@ -17,3 +17,24 @@ console.log(find);
 const arr3 = [10, 20, 30, 40, 50]
 const reduce = arr3.reduce((a,b) => a + b);
 console.log(reduce);
+
+//includes method
+const arr4 = [10, 20, 30, 40, 50]
+const arr5 = '5'
+const includes = arr4.includes(30);
+console.log(includes);
+console.log(arr4.includes(60));
+
+//indexOf method
+const indexOf = arr4.indexOf(30);
+console.log(indexOf);
+
+//is Array method
+const isArray = Array.isArray(arr5);
+console.log(isArray);
+
+
+//reverse method
+const arr6 = [10, 20, 30, 40, 50]
+const reverse = arr6.reverse();
+console.log(reverse);
